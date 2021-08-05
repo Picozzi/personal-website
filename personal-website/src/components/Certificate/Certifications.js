@@ -1,21 +1,18 @@
-import React, {useState, useRef, useEffect, Suspense, createRef, useContext, useMemo} from 'react';
-import './App.css';
-import styled from 'styled-components';
-import {motion} from 'framer-motion';
+import React, { useState, useEffect, useContext, useMemo } from "react";
+import "../../App.css";
+import styled from "styled-components";
+import { motion } from "framer-motion";
 import { useIntersection } from "react-use";
-import Card from "./Card";
+import CertificationList from "./CertificationList";
+import CertificationTile from "./CertificationTile";
 
 const IntersectionContext = React.createContext({ inView: true });
 
-
-const IntersectionObserver = ({
-  children,
-  reset = false // if value set to true - observed element will reappear every time it shows up on the screen
-}) => {
+const IntersectionObserver = ({ children, reset = false }) => {
   const [inView, setInView] = useState(false);
   const intersectionRef = React.useRef(null);
   const intersection = useIntersection(intersectionRef, {
-    threshold: 0
+    threshold: 0,
   });
 
   useEffect(() => {
@@ -36,16 +33,16 @@ const IntersectionObserver = ({
 
 const ScaleBox = ({
   children,
-  delayOrder, // order of appearance
+  delayOrder,
   duration = 0.4,
-  easing = [0.42, 0, 0.58, 1] // [number, number, number, number] | "linear" | "easeIn" | "easeOut" | "easeInOut" | "circIn" | "circOut" | "circInOut" | "backIn" | "backOut" | "backInOut" | "anticipate" | EasingFunction;
+  easing = [0.42, 0, 0.58, 1],
 }) => {
   const { inView } = useContext(IntersectionContext);
   const transition = useMemo(
     () => ({
       duration,
       delay: delayOrder / 5,
-      ease: easing
+      ease: easing,
     }),
     [duration, delayOrder, easing]
   );
@@ -54,13 +51,13 @@ const ScaleBox = ({
     hidden: {
       scale: 0,
       opacity: 0,
-      transition
+      transition,
     },
     show: {
       scale: 1,
       opacity: 1,
-      transition
-    }
+      transition,
+    },
   };
 
   return (
@@ -75,17 +72,14 @@ const ScaleBox = ({
   );
 };
 
-const Experiences = (props) => {
+const Section = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 4em;
 
-  const Section = styled.section`
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    //overflow: hidden;
-   // background: #f5f5f5;
-
-    h1 {
+  h1 {
     margin-bottom: 0.5rem;
     font-family: Montserrat;
     color: #464646;
@@ -97,28 +91,35 @@ const Experiences = (props) => {
       font-size: 3rem;
       padding-top: 0;
     }
-    }
+  }
+`;
 
-    `;
+const TileRow = styled(motion.div)`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 1vw 0em 4vw 0em;
+  @media (min-width: 1575px) {
+    margin: 2em 0em 6em 0em;
+  }
+`;
 
-    const list = props.experience_list;
-
-    return (
-        <Section id={props.id}>
-        <h1>{props.title}</h1>
-      
-        {list.map((item, key) => (
+const Certifications = () => {
+  return (
+    <Section>
+      <h1>Certifications & Awards</h1>
+      <TileRow>
+        {CertificationList.certificates.map((item, key) => (
           <IntersectionObserver key={key}>
             <ScaleBox>
-              <Card job = {item}/>
+              <CertificationTile certificate={item} />
             </ScaleBox>
           </IntersectionObserver>
         ))}
+      </TileRow>
+    </Section>
+  );
+};
 
-        </Section>
-
-    );
-  };
-
-  export default Experiences;
-
+export default Certifications;
