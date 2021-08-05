@@ -2,6 +2,10 @@
 
 A website outlining my work experience and portfolio. Built with React with animations provided by the Framer Motion package.
 
+## Access
+
+To view the website, please visit the following url - www.picozzi.ca
+
 ## Built With
 
 - React
