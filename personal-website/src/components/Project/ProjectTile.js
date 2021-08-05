@@ -58,7 +58,7 @@ const TileInformation = styled(motion.div)`
     padding: 0em 2em 0em 2em;
   }
 
-  h1 {
+  h3 {
     font-size: 2vw;
     color: #1b9aaa;
     font-weight: 700;
@@ -116,7 +116,7 @@ const ProjectTile = (props) => {
     <Tile whileHover={{ scale: 1.05 }}>
       <Base>
         <TileInformation>
-          <h1>{props.project.projectTitle}</h1>
+          <h3>{props.project.projectTitle}</h3>
           <img src={props.project.projectImage} />
           <h2>{props.project.projectDescription}</h2>
 
