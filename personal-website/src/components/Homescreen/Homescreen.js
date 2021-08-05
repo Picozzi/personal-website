@@ -13,12 +13,11 @@ const Section = styled.section`
   justify-content: center;
   align-items: center;
   @media (min-width: 1575px) {
-    height: 100vh;
+    height: 96vh;
   }
 `;
 
 const ScrollDiv = styled(motion.div)`
-  padding-top: 1em;
   padding-bottom: 1em;
   cursor: pointer;
 `;
