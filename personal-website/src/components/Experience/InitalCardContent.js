@@ -22,7 +22,7 @@ const CardBase = styled(motion.div)`
 
   @media (min-width: 1000px) {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 `;

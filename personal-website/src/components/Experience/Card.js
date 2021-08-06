@@ -49,7 +49,7 @@ const Card = (props) => {
       }
     : {
         inactive: {
-          height: "30vw",
+          height: "33vw",
           width: "60vw",
           transition: {
             duration: 0.5,

@@ -80,8 +80,8 @@ const json = {
       jobThumbnail:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/john_hancock/john_hancock_thumbnail.jpg",
       jobSetting: {
-        width: "600px",
-        height: ["250px", "170px"],
+        width: "25vw",
+        height: ["25vh"],
         layout: [1],
         photos: [
           {
@@ -119,8 +119,8 @@ const json = {
       jobThumbnail:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/raven/raven_thumbnail.png",
       jobSetting: {
-        width: "600px",
-        height: ["250px", "170px"],
+        width: "30vw",
+        height: ["20vh", "25vh"],
         layout: [2, 1],
         photos: [
           {
@@ -164,8 +164,8 @@ const json = {
       jobThumbnail:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/allstream/allstream_thumbnail.png",
       jobSetting: {
-        width: "600px",
-        height: ["250px", "170px"],
+        width: "30vw",
+        height: ["25vh"],
         layout: [1],
         photos: [
           {
