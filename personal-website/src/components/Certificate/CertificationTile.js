@@ -20,7 +20,7 @@ const FrontTile = styled(motion.div)`
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
-  padding: 1vw;
+  padding: 2vw 1vw 1vw 1vw;
 
   @media (min-width: 1575px) {
     padding: 2em;
