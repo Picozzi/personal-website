@@ -31,7 +31,7 @@ const Card = (props) => {
   const cardVariants = IsSmall
     ? {
         inactive: {
-          height: "35vh",
+          height: "38vh",
           width: "60vw",
           transition: {
             duration: 0.5,
