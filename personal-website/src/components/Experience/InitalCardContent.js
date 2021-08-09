@@ -88,7 +88,7 @@ const H1 = styled.div`
   font-size: 1.5vw;
   color: ${(props) => props.color};
   font-weight: 700;
-  padding-top: 1em;
+  padding-top: 0.7em;
 
   @media (min-width: 1245px) {
     font-size: 1.5em;
