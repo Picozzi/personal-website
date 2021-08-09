@@ -11,7 +11,7 @@ const Tile = styled(motion.div)`
   width: 25vw;
 
   @media (min-width: 1000px) {
-    height: 70vh;
+    height: 75vh;
     width: 25vw;
   }
 

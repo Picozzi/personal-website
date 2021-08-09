@@ -23,14 +23,14 @@ const ButtonList = (props) => {
   var codeRender;
 
   if (IsButtonSmall) {
-    computerRender = <Icon name="linkedin" size="large" />;
-    codeRender = <Icon name="github" size="large" />;
+    computerRender = <Icon name="computer" size="large" />;
+    codeRender = <Icon name="code" size="large" />;
   } else if (IsButtonTiny) {
-    computerRender = <Icon name="linkedin" />;
-    codeRender = <Icon name="github" />;
+    computerRender = <Icon name="computer" />;
+    codeRender = <Icon name="code" />;
   } else {
-    computerRender = <Icon name="linkedin" size="tiny" />;
-    codeRender = <Icon name="github" size="tiny" />;
+    computerRender = <Icon name="computer" size="tiny" />;
+    codeRender = <Icon name="code" size="tiny" />;
   }
 
   return (
@@ -38,13 +38,13 @@ const ButtonList = (props) => {
       <a href={props.code} target="_blank" rel="noopener noreferrer">
         <Button animated="vertical">
           <Button.Content visible>{computerRender}</Button.Content>
-          <Button.Content hidden>Web App</Button.Content>
+          <Button.Content hidden>App</Button.Content>
         </Button>
       </a>
       <a href={props.app} target="_blank" rel="noopener noreferrer">
         <Button animated="vertical">
           <Button.Content visible>{codeRender}</Button.Content>
-          <Button.Content hidden>Code</Button.Content>
+          <Button.Content hidden>Source</Button.Content>
         </Button>
       </a>
     </ButtonDiv>
