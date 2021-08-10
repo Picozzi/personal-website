@@ -35,13 +35,13 @@ const ButtonList = (props) => {
 
   return (
     <ButtonDiv>
-      <a href={props.code} target="_blank" rel="noopener noreferrer">
+      <a href={props.app} target="_blank" rel="noopener noreferrer">
         <Button animated="vertical">
           <Button.Content visible>{computerRender}</Button.Content>
           <Button.Content hidden>App</Button.Content>
         </Button>
       </a>
-      <a href={props.app} target="_blank" rel="noopener noreferrer">
+      <a href={props.code} target="_blank" rel="noopener noreferrer">
         <Button animated="vertical">
           <Button.Content visible>{codeRender}</Button.Content>
           <Button.Content hidden>Source</Button.Content>
