@@ -71,12 +71,6 @@ const json = {
         "Developed 2 project management tools to assist in tracking monthly personnel budgets goals for employees and contractors.",
         "Analyzed the division’s billing system to provide key volume metrics to vendors during procurement periods.",
       ],
-      jobNews: [
-        [
-          "https://www.salesforce.com/customer-success-stories/john-hancock/",
-          "Salesforce Article - Digital Experiences",
-        ],
-      ],
       jobThumbnail:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/john_hancock/john_hancock_thumbnail.jpg",
       jobSetting: {
