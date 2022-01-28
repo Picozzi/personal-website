@@ -193,8 +193,15 @@ const Homescreen = () => {
             </a>
             .
             <br />
-            <br />
-            Currently, I am looking for internships starting Winter 2022!
+            <br />I am currently working at{" "}
+            <a href="https://www.wish.com">
+              <span>Wish</span>
+            </a>{" "}
+            as a Growth Analyst intern and will be joining{" "}
+            <a href="https://robinhood.com/us/en/">
+              <span>Robinhood</span>
+            </a>{" "}
+            in Summer 2022!
           </motion.h3>
           <ButtonBar />
         </ColumnLeft>
