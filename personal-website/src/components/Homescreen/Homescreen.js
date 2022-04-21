@@ -186,18 +186,18 @@ const Homescreen = () => {
             ,{" "}
             <a href="https://www.johnhancock.com/index.html">
               <span>John Hancock Financial</span>
-            </a>{" "}
-            and{" "}
+            </a>
+            ,{" "}
             <a href="https://www.autodesk.ca/en">
               <span>Autodesk</span>
+            </a>{" "}
+            and{" "}
+            <a href="https://www.wish.com">
+              <span>Wish</span>
             </a>
             .
             <br />
-            <br />I am currently working at{" "}
-            <a href="https://www.wish.com">
-              <span>Wish</span>
-            </a>{" "}
-            as a Growth Analyst intern and will be joining{" "}
+            <br />I will be working as a Brokerage Analytics intern at{" "}
             <a href="https://robinhood.com/us/en/">
               <span>Robinhood</span>
             </a>{" "}
