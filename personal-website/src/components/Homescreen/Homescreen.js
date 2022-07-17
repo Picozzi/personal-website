@@ -197,11 +197,11 @@ const Homescreen = () => {
             </a>
             .
             <br />
-            <br />I will be working as a Brokerage Analytics intern at{" "}
+            <br />I am currently interning at{" "}
             <a href="https://robinhood.com/us/en/">
               <span>Robinhood</span>
             </a>{" "}
-            in Summer 2022!
+            during Summer 2022!
           </motion.h3>
           <ButtonBar />
         </ColumnLeft>

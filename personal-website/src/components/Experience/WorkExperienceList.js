@@ -1,6 +1,90 @@
 const json = {
   jobs: [
     {
+      jobTitle: "Quantitative Operations Analyst",
+      jobCompany: "Robinhood",
+      jobDescription:
+        "QOA Intern wearing my SWE, Data Science, and Product Management hats.",
+      jobDetails: "May 2022 - August 2022",
+      jobLocation: "Menlo Park, California",
+      jobLabels: [
+        "Financial Engineering",
+        "Sentiment Analysis",
+        "Crypto",
+        "Brokerage",
+        "Looker",
+        "Stonks",
+      ],
+      jobColor: "#21ce99",
+      jobPoints: [
+        "Developed a sentiment analysis script in Python to analyze nearly 10,000 customer complaints and converted data insights into an actionable roadmap.",
+        "Created a Python script that automates key areas of the ACAT brokerage operation saving around 5 hours of work per week.",
+      ],
+      //jobNews: [[],],
+      jobThumbnail:
+        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/robinhood/robinhood.png",
+      jobSetting: {
+        width: "30vw",
+        height: ["25vh", "20vh"],
+        layout: [1, 2],
+        photos: [
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+        ],
+        showNumOfRemainingPhotos: false,
+      },
+      jobExpanded: false,
+    },
+    {
+      jobTitle: "Growth Analyst",
+      jobCompany: "Wish",
+      jobDescription:
+        "Ads Manager working in the Traffic Acquisition and Paid Ads team centered on all things Snapchat and TikTok.",
+      jobDetails: "January 2022 - April 2022",
+      jobLocation: "San Francisco, California",
+      jobLabels: [
+        "Data Analytics",
+        "A/B Tests",
+        "Creative Analysis",
+        "Predictive Modeling",
+        "Ad Funnels",
+        "Optimization",
+      ],
+      jobColor: "#2FB7EC",
+      jobPoints: [
+        "Managed the Snapchat user acquisition channel and increased ROAS by roughly 20% by running 3 A/B tests, launching campaigns in new countries, and testing new creatives.",
+        "Used predictive modelling to develop optimization insights for Wish’s Snapchat and TikTok ads saving 6 hours of work per week.",
+      ],
+      //jobNews: [[],],
+      jobThumbnail:
+        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/wish/wish.png",
+      jobSetting: {
+        width: "30vw",
+        height: ["25vh", "20vh"],
+        layout: [1, 2],
+        photos: [
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+        ],
+        showNumOfRemainingPhotos: false,
+      },
+      jobExpanded: false,
+    },
+    {
       jobTitle: "Software Developer",
       jobCompany: "Autodesk",
       jobDescription:
