@@ -1,20 +1,21 @@
 const json = {
   jobs: [
     {
-      jobTitle: "Operations Lead and Project Manager",
-      jobCompany: "WATOLink",
-      jobDescription:
-        "Operations Lead for a new design team at the University of Waterloo focused on developing brain-interfacing applications.",
-      jobDetails: "July 2021 - Present",
+      jobTitle: "VP of Outreach",
+      jobCompany: "UWPM",
+      jobDescription: "Lead a team of 4 in all sponsorship efforts of UWPM.",
+      jobDetails: "May 2022 - Present",
       jobLocation: "Waterloo, Ontario",
-      jobLabels: ["Python", "Jira", "Confluence", "Agile"],
-      jobColor: "#0CA6D5",
-      jobPoints: [
-        "Helping lead the business efforts for a team designing applications involving speech-rendering and action-classification via EEG signal analysis and inference",
-        "Team would create an application to submit to the NeuroTechX Competition in 2022.",
+      jobLabels: [
+        "Outreach",
+        "LinkedIn",
+        "Sponsorship Management",
+        "Leadership",
       ],
+      jobColor: "#F05C5B",
+      jobPoints: [],
       jobThumbnail:
-        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/watolink/watolink_thumbnail.png",
+        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/uwpm/uwpm_thumbnail_v2.png",
       jobExpanded: false,
     },
     {
@@ -41,6 +42,23 @@ const json = {
       ],
       jobThumbnail:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/watonomous/watonomous_thumbnail.png",
+      jobExpanded: false,
+    },
+    {
+      jobTitle: "Operations Lead and Project Manager",
+      jobCompany: "WATOLink",
+      jobDescription:
+        "Operations Lead for a new design team at the University of Waterloo focused on developing brain-interfacing applications.",
+      jobDetails: "July 2021 - December 2021",
+      jobLocation: "Waterloo, Ontario",
+      jobLabels: ["Python", "Jira", "Confluence", "Agile"],
+      jobColor: "#0CA6D5",
+      jobPoints: [
+        "Helping lead the business efforts for a team designing applications involving speech-rendering and action-classification via EEG signal analysis and inference",
+        "Team would create an application to submit to the NeuroTechX Competition in 2022.",
+      ],
+      jobThumbnail:
+        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/watolink/watolink_thumbnail.png",
       jobExpanded: false,
     },
     {
