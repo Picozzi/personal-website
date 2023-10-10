@@ -19,6 +19,7 @@ export default class App extends Component {
       <AppHolder>
         <ScrollProgress />
         <Homescreen />
+        <Projects />
         <Experiences
           title="Work Experience"
           experience_list={WorkExperienceList.jobs}
@@ -29,7 +30,6 @@ export default class App extends Component {
           experience_list={VolunteerExperienceList.jobs}
           id="volunteer_experience"
         />
-        <Projects />
         <Certifications />
       </AppHolder>
     );
