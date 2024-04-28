@@ -10,17 +10,17 @@ const json = {
       projectImage:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/projects/BikePlay_Logo_Black.png",
     },
-    {
-      projectTitle: "EV & Go",
-      projectDescription:
-        "A web application that surveys users on their existing car needs and presents them with EV (electric vehicle) alternative to help accelerate and ease the transition to electrical vehicles. Conducted User Experience Analysis using primary UX Research methods.",
-      projectLabels: ["Python", "Flask", "React"],
-      projectSource:
-        "https://drive.google.com/file/d/1cxuDH1Wsw7hT3SZoC6zAdm7pc0tRTEy2/view?usp=share_link",
-      projectApp: "https://evandgo.onrender.com",
-      projectImage:
-        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/projects/evandgo.png",
-    },
+    // {
+    //   projectTitle: "EV & Go",
+    //   projectDescription:
+    //     "A web application that surveys users on their existing car needs and presents them with EV (electric vehicle) alternative to help accelerate and ease the transition to electrical vehicles. Conducted User Experience Analysis using primary UX Research methods.",
+    //   projectLabels: ["Python", "Flask", "React"],
+    //   projectSource:
+    //     "https://drive.google.com/file/d/1cxuDH1Wsw7hT3SZoC6zAdm7pc0tRTEy2/view?usp=share_link",
+    //   projectApp: "https://evandgo.onrender.com",
+    //   projectImage:
+    //     "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/projects/evandgo.png",
+    // },
   ],
 };
 
