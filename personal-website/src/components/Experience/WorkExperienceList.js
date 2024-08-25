@@ -1,6 +1,41 @@
 const json = {
   jobs: [
     {
+      jobTitle: "Quantitative Analyst",
+      jobCompany: "Milliman",
+      jobDescription: "Quantitative Analyst working in the fixed income space.",
+      jobDetails: "October 2023 - Present",
+      jobLocation: "Chicago, IL",
+      jobLabels: [
+        "Financial Engineering",
+        "Fixed Income Annuities",
+        "Data Pipelining",
+      ],
+      jobColor: "#222b36",
+      jobPoints: [],
+      //jobNews: [[],],
+      jobThumbnail:
+        "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/milliman/milliman_logo.png",
+      jobSetting: {
+        width: "30vw",
+        height: ["25vh", "20vh"],
+        layout: [1, 2],
+        photos: [
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+          {
+            source: "",
+          },
+        ],
+        showNumOfRemainingPhotos: false,
+      },
+      jobExpanded: false,
+    },
+    {
       jobTitle: "Quantitative Operations Analyst",
       jobCompany: "Robinhood",
       jobDescription:
@@ -13,7 +48,6 @@ const json = {
         "Crypto",
         "Brokerage",
         "Looker",
-        "Stonks",
       ],
       jobColor: "#21ce99",
       jobPoints: [

@@ -172,36 +172,40 @@ const Homescreen = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            I am an aspiring PM studying mechatronics engineering at the
+            I am an aspiring PM and Mechatronics Engineering graduate from the
             University of Waterloo.
             <br />
             <br />I have previously worked at{" "}
-            <a href="https://allstream.com/">
-              <span>Allstream</span>
+            <a href="https://robinhood.com/us/en/">
+              <span>Robinhood</span>
             </a>
             ,{" "}
-            <a href="https://raven.ai/">
-              <span>Raven</span>
+            <a href="https://www.wish.com">
+              <span>Wish</span>
+            </a>
+            ,{" "}
+            <a href="https://www.autodesk.ca/en">
+              <span>Autodesk</span>
             </a>
             ,{" "}
             <a href="https://www.johnhancock.com/index.html">
               <span>John Hancock Financial</span>
             </a>
             ,{" "}
-            <a href="https://www.autodesk.ca/en">
-              <span>Autodesk</span>
-            </a>{" "}
+            <a href="https://raven.ai/">
+              <span>Raven</span>
+            </a>
             and{" "}
-            <a href="https://www.wish.com">
-              <span>Wish</span>
+            <a href="https://allstream.com/">
+              <span>Allstream</span>
             </a>
             .
             <br />
-            <br />I am currently interning at{" "}
-            <a href="https://robinhood.com/us/en/">
-              <span>Robinhood</span>
+            <br />I am currently working at{" "}
+            <a href="https://us.milliman.com/en/">
+              <span>Milliman</span>
             </a>{" "}
-            during Summer 2022!
+            as a Quantitative Analyst!
           </motion.h3>
           <ButtonBar />
         </ColumnLeft>

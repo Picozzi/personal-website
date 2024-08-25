@@ -3,10 +3,10 @@ const json = {
     {
       projectTitle: "BikePlay",
       projectDescription:
-        "Acted as lead Product Manager and Software Lead to develop in a team of 4, an augemented-reality bike accessory that projects directions into the user's field-of-view.",
+        "Acted as Product Manager and Software Lead to develop, in a team of 4, an augemented-reality bike accessory that projects directions into the user's field-of-view.",
       projectLabels: ["Python", "VR", "User Experience"],
       projectSource: "https://github.com/Picozzi/BikePlay",
-      projectApp: "https://www.bikeplay.ca",
+      projectApp: "https://bikeplay.squarespace.com",
       projectImage:
         "https://picozziwebsite.s3.ca-central-1.amazonaws.com/images/projects/BikePlay_Logo_Black.png",
     },
