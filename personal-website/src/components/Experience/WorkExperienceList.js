@@ -3,7 +3,7 @@ const json = {
     {
       jobTitle: "Quantitative Analyst",
       jobCompany: "Milliman",
-      jobDescription: "Quantitative Analyst working in the fixed income space.",
+      jobDescription: "Analyst working in the fixed income space.",
       jobDetails: "October 2023 - Present",
       jobLocation: "Chicago, IL",
       jobLabels: [

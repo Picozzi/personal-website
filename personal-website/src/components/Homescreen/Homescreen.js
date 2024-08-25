@@ -194,7 +194,7 @@ const Homescreen = () => {
             ,{" "}
             <a href="https://raven.ai/">
               <span>Raven</span>
-            </a>
+            </a>{" "}
             and{" "}
             <a href="https://allstream.com/">
               <span>Allstream</span>
