@@ -67,7 +67,7 @@ const ButtonBar = () => {
           <Button.Content hidden>LinkedIn</Button.Content>
         </Button>
       </a>
-      <a href="mailto: matthew.picozzi@gmail.com">
+      <a href="mailto: matthew@picozzi.ca">
         <Button animated="vertical">
           <Button.Content visible>{emailRender}</Button.Content>
           <Button.Content hidden>E-Mail</Button.Content>
